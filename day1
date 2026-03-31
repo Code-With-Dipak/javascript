@@ -1,0 +1,66 @@
+/*console.log("Hello, World!");
+name="dipak";
+age=21;
+console.log(name,age); */
+
+/*var keyword ----> can be re-declared and update 
+
+var age=32;
+var age ="dipak";
+var age="neww";
+console.log(age);*/
+
+/*let keyword ----> can not be re-declared and can not update 
+ let age=32;
+  age =42;
+  age =64;
+ console.log(age); */
+
+ /* const keyword ----> cannot br re-declared and cannot be update 
+ const price=100;
+ console.log(price); 
+
+ let a = 5;
+  let b = 6; 
+  c = a + b;
+    console.log(c); */
+
+
+    /*const collection ={
+        name:"dipak",
+        age:22,
+        cgpa:9.10
+    };
+    console.log(collection);
+    console.log(collection.name);
+    */
+
+    /*const product ={
+        name:"simple text",
+        rating:4-5,
+        price:270,
+        isdeal:true
+    };
+    console.log(product);*/
+
+    //operator is javascript
+    /*arithmetic operator
+    let a=10;
+    let b=5;
+    result=a+b;
+    console.log(result);*/
+
+    /*assignment operator
+    const a=10;
+    console.log(a);  */
+
+    /*comparison operator
+    const a=5;
+    const b=7;
+    const result=a!=b;
+    console.log(result); */
+    
+
+    
+
+
