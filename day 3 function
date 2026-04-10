@@ -1,0 +1,100 @@
+/*function myfunction(){
+    console.log("Hello World");
+    console.log("Welcome to JavaScript");
+}
+myfunction(); // calling the function */
+
+/*parameter passing in ()
+
+function myfunction(name){
+    console.log(name + " Welcome to JavaScript");
+}
+myfunction("Hello World"); */
+
+/*addition of two no 
+function sum(x,y){
+    console.log(x+y);
+}
+sum(10,10); // 20 */
+
+/*arrow function
+
+const sum=(a,b) =>{
+    console.log(a+b);
+}
+sum(10,10); 
+
+const mul=(a,b)=>{
+    console.log(a*b);
+}
+mul(2,2); */
+
+
+/*function countvowels(str){
+    count=0;
+    for(const char of str){
+        if(char==="a"|| char==="i"){
+            count++;
+        }
+    }
+    console.log(count);
+}
+countvowels("aaii"); */
+
+/*
+
+function countvowels(str) {
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i];   // access each character using index
+
+        if (char === "a" || char === "i") {
+            count++;
+        }
+    }
+
+    console.log(count);
+}
+
+countvowels("aaii"); */
+
+
+/*for each method (call backl ()) pass an argument to another function
+
+let arr=[1,2,3,4,5];
+
+arr.forEach(function otherarr(num){ -------->simple function
+    console.log(num);
+}) */
+
+
+/*
+let arr=[1,2,3,4,5,8];  
+
+arr.forEach(myfunction=(num)=>{     ---->arrow function 
+    console.log(num);
+}) */
+
+
+let arr=[1,2,3,4,5];
+/*
+arr.forEach(function val(num){  --------------->simple function
+    console.log(num);
+})*/
+
+/*
+arr.forEach(val=(num)=>{  ---------->arrow function 
+    console.log(num);
+})  
+
+*/
+
+
+
+
+
+
+
+
+
